@@ -120,7 +120,7 @@
     // Your web app's Firebase configuration
     // For Firebase JS SDK v7.20.0 and later, measurementId is optional
     const firebaseConfig = {
-        apiKey: "AIzaSyD_abwBsLCd00IFrjfPPyoQPq0AxSTBWY4",
+        apiKey: "<Your Firebase API Key>",
         authDomain: "book-your-own.firebaseapp.com",
         projectId: "book-your-own",
         storageBucket: "book-your-own.appspot.com",
