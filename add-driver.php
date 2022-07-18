@@ -142,22 +142,6 @@
                         </div>
                     </div>
                     <div class="grid grid-cols-1 gap-2 lg:grid-cols-3">
-                        <div>
-                            <label for="initialRating" class="block text-sm font-medium text-neutral-600"> Initial Ratings </label>
-                            <div class="mt-1">
-                                <input
-                                    id="initialRating"
-                                    name="initialRating"
-                                    type="number"
-                                    step="0.1"
-                                    min="1"
-                                    max="5"
-                                    required=""
-                                    placeholder="Initial Ratings"
-                                    class="block w-full px-5 py-3 text-base text-neutral-600 placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300"
-                                />
-                            </div>
-                        </div>
                         <div class="space-y-1">
                             <label for="bookingStatus" class="block text-sm font-medium text-neutral-600">Booking Status </label>
                             <div class="mt-1">
@@ -249,7 +233,6 @@
         let vehicleName = _("vehicleName").value;
         let vehicleType = _("vehicleType").value;
         let vehicleNumber = _("vehicleNumber").value;
-        let rating = _("initialRating").value;
         let bookingStatus = _("bookingStatus").value;
         let password = _("password").value;
 
@@ -265,7 +248,6 @@
             vehicleName: vehicleName,
             vehicleType: vehicleType,
             vehicleNumber: vehicleNumber,
-            rating: rating,
             bookingStatus: bookingStatus,
             driverLifeCycle: "Free",
             busyTime: [{ from: 0, to: 0 }],
